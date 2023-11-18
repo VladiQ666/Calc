@@ -17,7 +17,7 @@ func calculator(num1, num2 int, operator string) {
 	case "*":
 		fmt.Println(num1 * num2)
 	case "/":
-		if num2 == 0 && operator == "/" {
+		if num2 == 0 {
 		fmt.Println("На ноль делить нельзя, идиотина")
 		} else {
 			fmt.Println(num1 / num2)
